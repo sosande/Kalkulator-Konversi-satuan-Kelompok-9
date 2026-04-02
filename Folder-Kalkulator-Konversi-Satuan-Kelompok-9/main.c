@@ -42,7 +42,9 @@ int main() {
         //isi fungsi konversi suhu
     }
     void konversi_panjang(){
-        //isi fungsi konversi panjang
+        //isi fungsi konver
+        si panjang
+        
     }
     void konversi_berat(){
         //isi fungsi konversi berat
