@@ -35,6 +35,20 @@ int main() {
             printf("Pilihan tidak valid.\n");
     }
 
-    
+    //tambahkan fungsi konversi suhu, panjang, berat, dan waktu
+
+    void konversi_suhu(){
+        //isi fungsi konversi suhu
+    }
+    void konversi_panjang(){
+        //isi fungsi konversi panjang
+    }
+    void konversi_berat(){
+        //isi fungsi konversi berat
+    }
+    void konversi_waktu(){
+        //isi fungsi konversi waktu
+    }
+
     return 0;
 }
