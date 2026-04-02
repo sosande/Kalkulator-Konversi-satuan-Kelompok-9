@@ -72,7 +72,24 @@ int main() {
 }
     }
     void konversi_berat(){
-        //isi fungsi konversi berat
+        int main() {
+        float kg, gram, pons;
+
+        // Meminta input 
+        printf("Masukkan berat dalam Kilogram (kg): ");
+        scanf("%f", &kg);
+
+        // Melakukan perhitungan konversi
+        gram = kg * 1000;
+        pons = kg * 2.20462;
+
+        // hasil
+        printf("\n--- Hasil Konversi ---\n");
+        printf("%.2f kg sama dengan %.2f Gram\n", kg, gram);
+        printf("%.2f kg sama dengan %.2f Pons\n", kg, pons);
+
+        return 0;
+}
     }
     void konversi_waktu(){
         //isi fungsi konversi waktu
