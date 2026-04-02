@@ -41,7 +41,35 @@ int main() {
         //isi fungsi konversi suhu
     }
     void konversi_panjang(){
-        //isi fungsi konversi panjang
+    int main() {
+    int panjang;
+    int pilihan;
+
+    printf("=== Program Konversi Jarak ===\n");
+    
+
+    printf("Pilih konversi:\n");
+    printf("1. Kilometer ke Meter\n");
+    printf("2. Kilometer ke Sentimeter\n");
+    printf("Masukkan pilihan (1/2): ");
+    scanf("%d", &pilihan);
+
+    if (pilihan == 1) {
+        printf("Masukkan jarak dalam kilometer (km): ");
+        scanf("%d", &panjang);
+        int meter = panjang * 1000;
+        printf("Hasil:\n %d km = %d meter\n", panjang, meter);
+    } else if (pilihan == 2) {
+        printf("Masukkan jarak dalam kilometer (km): ");
+        scanf("%d", &panjang);
+        int cm = panjang * 100000;
+        printf("Hasil: \n%d  km= %d sentimeter\n", panjang, cm);
+    } else {
+        printf("Pilihan tidak valid.\n");
+    }
+
+    return 0;
+}
     }
     void konversi_berat(){
         //isi fungsi konversi berat
