@@ -76,6 +76,31 @@ int main() {
     }
     void konversi_waktu(){
         //isi fungsi konversi waktu
+        #include <stdio.h>
+
+int main() {
+    float jam;
+    float menit, detik;
+
+    // Meminta input dari pengguna
+    printf("Masukkan jumlah waktu (dalam jam): ");
+    scanf("%f", &jam);
+
+    // Rumus Konversi
+    // 1 jam = 60 menit
+    // 1 jam = 3600 detik
+    menit = jam * 60;
+    detik = jam * 3600;
+
+    // Menampilkan hasil
+    // %.2f digunakan untuk membatasi 2 angka di belakang koma
+    printf("\n--- Hasil Konversi ---\n");
+    printf("%.2f jam sama dengan:\n", jam);
+    printf("> %.2f Menit\n", menit);
+    printf("> %.2f Detik\n", detik);
+
+    return 0;
+}
     }
 
     return 0;
