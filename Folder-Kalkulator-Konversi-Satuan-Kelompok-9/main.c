@@ -42,7 +42,7 @@ int main() {
     }
     void konversi_panjang(){
     int main() {
-    int panjang;
+    int jarak;
     int pilihan;
 
     printf("=== Program Konversi Jarak ===\n");
@@ -56,14 +56,14 @@ int main() {
 
     if (pilihan == 1) {
         printf("Masukkan jarak dalam kilometer (km): ");
-        scanf("%d", &panjang);
-        int meter = panjang * 1000;
-        printf("Hasil:\n %d km = %d meter\n", panjang, meter);
+        scanf("%d", &jarak);
+        int meter = jarak * 1000;
+        printf("Hasil:\n %d km = %d meter\n", jarak, meter);
     } else if (pilihan == 2) {
         printf("Masukkan jarak dalam kilometer (km): ");
-        scanf("%d", &panjang);
-        int cm = panjang * 100000;
-        printf("Hasil: \n%d  km= %d sentimeter\n", panjang, cm);
+        scanf("%d", &jarak);
+        int cm = jarak * 100000;
+        printf("Hasil: \n%d  km= %d sentimeter\n", jarak, cm);
     } else {
         printf("Pilihan tidak valid.\n");
     }
