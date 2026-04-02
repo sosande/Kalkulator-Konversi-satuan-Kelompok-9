@@ -38,7 +38,45 @@ int main() {
     //tambahkan fungsi konversi suhu, panjang, berat, dan waktu
 
     void konversi_suhu(){
-        //isi fungsi konversi suhu
+        
+        int pilihan;
+        float nilai;
+
+        printf("\n=== Konversi Suhu ===\n");
+        printf("1. Celsius -> Fahrenheit\n");
+        printf("2. Celsius -> Kelvin\n");
+        printf("3. Fahrenheit -> Celsius\n");
+        printf("4. Fahrenheit -> Kelvin\n");
+        printf("5. Kelvin -> Celsius\n");
+        printf("6. Kelvin -> Fahrenheit\n");
+        printf("Pilih (1-6): ");
+        scanf("%d", &pilihan);
+
+        printf("Masukkan nilai suhu: ");
+        scanf("%f", &nilai);
+
+        switch(pilihan) {
+            case 1:
+                printf("Hasil: %.2f F\n", c_to_f(nilai));
+                break;
+            case 2:
+                printf("Hasil: %.2f K\n", c_to_k(nilai));
+                break;
+            case 3:
+                printf("Hasil: %.2f C\n", f_to_c(nilai));
+                break;
+            case 4:
+                printf("Hasil: %.2f K\n", f_to_k(nilai));
+                break;
+            case 5:
+                printf("Hasil: %.2f C\n", k_to_c(nilai));
+                break;
+            case 6:
+                printf("Hasil: %.2f F\n", k_to_f(nilai));
+                break;
+            default:
+                printf("Pilihan tidak valid!\n");
+        }
     }
     void konversi_panjang(){
     int main() {
@@ -93,9 +131,9 @@ int main() {
     }
     void konversi_waktu(){
         //isi fungsi konversi waktu
-        #include <stdio.h>
+    
 
-int main() {
+    
     float jam;
     float menit, detik;
 
@@ -116,7 +154,7 @@ int main() {
     printf("> %.2f Menit\n", menit);
     printf("> %.2f Detik\n", detik);
 
-    return 0;
+
 }
     }
 
